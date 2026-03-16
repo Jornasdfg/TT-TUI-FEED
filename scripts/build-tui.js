@@ -78,9 +78,7 @@ function pickBanner(p) {
 }
 
 /**
- * Forceer alleen pakketreizen met vlucht:
- * - accepteer alleen als transportType "VL" aanwezig is
- * - transportType kan op meerdere plekken staan (p.transportType of p.properties.transportType)
+ * Alleen pakketreizen met vlucht
  */
 function transportTypesOf(p) {
   const a = [];
@@ -101,8 +99,7 @@ function transportTypesOf(p) {
 
 function isFlightOnly(p) {
   const t = transportTypesOf(p);
-  if (t.includes("VL")) return true;
-  return false;
+  return t.includes("VL");
 }
 
 (async () => {
@@ -134,23 +131,27 @@ function isFlightOnly(p) {
       const props = p && p.properties ? p.properties : {};
 
       return {
-        id: p.ID || p.id || "",
-        title: p.name || p.title || "",
+        id: String(p.ID || p.id || "").trim(),
+        title: String(p.name || p.title || "").trim(),
         price: toNumber((p.price && p.price.amount) || p.price),
-        currency: (p.price && p.price.currency) || "EUR",
-        country: first(props.country) || p.country || "",
-        departure: first(props.iataDeparture) || "",
-        departureDate: first(props.departureDate) || "",
+        currency: String((p.price && p.price.currency) || "EUR").trim(),
+        country: String(first(props.country) || p.country || "").trim(),
+        departure: String(first(props.iataDeparture) || "").trim(),
+        departureDate: String(first(props.departureDate) || "").trim(),
         duration: toNumber(first(props.duration)),
-        stars: first(props.stars) || "",
-        province: first(props.province) || "",
-        region: first(props.region) || "",
-        serviceType: first(props.serviceType) || "",
-        url: p.URL || p.url || "",
+        stars: String(first(props.stars) || "").trim(),
+        province: String(first(props.province) || "").trim(),
+        region: String(first(props.region) || "").trim(),
+        serviceType: String(first(props.serviceType) || "").trim(),
+        url: String(p.URL || p.url || "").trim(),
         banner: pickBanner(p),
       };
     })
-    .filter((x) => x && x.url);
+    .filter((x) => x && x.url)
+    .filter((x) => x.title)
+    .filter((x) => x.price !== null && x.price > 0)
+    .filter((x) => x.departureDate)
+    .filter((x) => x.duration !== null && x.duration > 0);
 
   thin.sort((a, b) => (a.price ?? 99999999) - (b.price ?? 99999999));
 
@@ -173,19 +174,30 @@ function isFlightOnly(p) {
     Spanje: 600,
     Griekenland: 650,
     Turkije: 700,
+    Portugal: 650,
+    Italië: 650,
     Egypte: 800,
+    __default: 700,
   };
 
-  const DEFAULT_CAP = 700;
+  const DEFAULT_CAP = COUNTRY_PRICE_CAPS.__default || 700;
+
+  const index = {
+    last_updated: new Date().toISOString(),
+    caps: COUNTRY_PRICE_CAPS,
+    countries: {},
+    files: {
+      all_min: "tui/all.min.json",
+      country_index: "tui/country/index.json",
+    },
+  };
 
   for (const country in byCountry) {
     const cap = COUNTRY_PRICE_CAPS[country] ?? DEFAULT_CAP;
 
-    const filtered = byCountry[country].filter((x) => {
-      if (x.price === null) return false;
-      if (x.price > cap) return false;
-      return true;
-    });
+    const filtered = byCountry[country]
+      .filter((x) => x.price !== null && x.price <= cap)
+      .sort((a, b) => (a.price ?? 99999999) - (b.price ?? 99999999));
 
     const fileName = `${slugify(country)}_under_${cap}.json`;
 
@@ -193,7 +205,19 @@ function isFlightOnly(p) {
       path.join(outCountryDir, fileName),
       JSON.stringify(filtered)
     );
+
+    index.countries[country] = {
+      cap,
+      total: byCountry[country].length,
+      under_cap: filtered.length,
+      file: `tui/country/${fileName}`,
+    };
   }
+
+  fs.writeFileSync(
+    path.join(outCountryDir, "index.json"),
+    JSON.stringify(index, null, 2)
+  );
 
   console.log("TUI feed build complete.");
 })();
