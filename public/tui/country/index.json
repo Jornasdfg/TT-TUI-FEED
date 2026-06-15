@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T09:46:00.312Z",
+  "last_updated": "2026-06-15T11:23:00.066Z",
   "caps": {
     "Spanje": 600,
     "Griekenland": 650,
@@ -12,249 +12,285 @@
   "countries": {
     "Tsjechië": {
       "cap": 700,
-      "total": 47,
-      "under_cap": 47,
+      "total": 21,
+      "under_cap": 20,
       "file": "tui/country/tsjechi_under_700.json"
-    },
-    "Portugal": {
-      "cap": 650,
-      "total": 241,
-      "under_cap": 124,
-      "file": "tui/country/portugal_under_650.json"
-    },
-    "Spanje": {
-      "cap": 600,
-      "total": 878,
-      "under_cap": 283,
-      "file": "tui/country/spanje_under_600.json"
-    },
-    "Oostenrijk": {
-      "cap": 700,
-      "total": 138,
-      "under_cap": 107,
-      "file": "tui/country/oostenrijk_under_700.json"
-    },
-    "Turkije": {
-      "cap": 700,
-      "total": 241,
-      "under_cap": 68,
-      "file": "tui/country/turkije_under_700.json"
     },
     "Italië": {
       "cap": 650,
-      "total": 40,
-      "under_cap": 23,
+      "total": 265,
+      "under_cap": 162,
       "file": "tui/country/itali_under_650.json"
     },
-    "Verenigd Koninkrijk": {
-      "cap": 700,
-      "total": 85,
-      "under_cap": 54,
-      "file": "tui/country/verenigd_koninkrijk_under_700.json"
+    "Spanje": {
+      "cap": 600,
+      "total": 244,
+      "under_cap": 110,
+      "file": "tui/country/spanje_under_600.json"
     },
-    "Polen": {
-      "cap": 700,
-      "total": 25,
-      "under_cap": 25,
-      "file": "tui/country/polen_under_700.json"
-    },
-    "Noord Macedonië": {
-      "cap": 700,
-      "total": 2,
-      "under_cap": 2,
-      "file": "tui/country/noord_macedoni_under_700.json"
+    "Portugal": {
+      "cap": 650,
+      "total": 71,
+      "under_cap": 35,
+      "file": "tui/country/portugal_under_650.json"
     },
     "Frankrijk": {
       "cap": 700,
-      "total": 8,
-      "under_cap": 6,
+      "total": 54,
+      "under_cap": 21,
       "file": "tui/country/frankrijk_under_700.json"
     },
     "Griekenland": {
       "cap": 650,
-      "total": 64,
-      "under_cap": 20,
+      "total": 396,
+      "under_cap": 75,
       "file": "tui/country/griekenland_under_650.json"
+    },
+    "Verenigd Koninkrijk": {
+      "cap": 700,
+      "total": 39,
+      "under_cap": 26,
+      "file": "tui/country/verenigd_koninkrijk_under_700.json"
+    },
+    "Oostenrijk": {
+      "cap": 700,
+      "total": 66,
+      "under_cap": 51,
+      "file": "tui/country/oostenrijk_under_700.json"
+    },
+    "Noord Macedonië": {
+      "cap": 700,
+      "total": 9,
+      "under_cap": 6,
+      "file": "tui/country/noord_macedoni_under_700.json"
     },
     "Marokko": {
       "cap": 700,
-      "total": 2,
-      "under_cap": 1,
+      "total": 31,
+      "under_cap": 14,
       "file": "tui/country/marokko_under_700.json"
-    },
-    "Denemarken": {
-      "cap": 700,
-      "total": 2,
-      "under_cap": 2,
-      "file": "tui/country/denemarken_under_700.json"
-    },
-    "IJsland": {
-      "cap": 700,
-      "total": 3,
-      "under_cap": 2,
-      "file": "tui/country/ijsland_under_700.json"
-    },
-    "Noorwegen": {
-      "cap": 700,
-      "total": 3,
-      "under_cap": 3,
-      "file": "tui/country/noorwegen_under_700.json"
-    },
-    "Slovenië": {
-      "cap": 700,
-      "total": 29,
-      "under_cap": 12,
-      "file": "tui/country/sloveni_under_700.json"
-    },
-    "Malta": {
-      "cap": 700,
-      "total": 3,
-      "under_cap": 1,
-      "file": "tui/country/malta_under_700.json"
-    },
-    "Duitsland": {
-      "cap": 700,
-      "total": 6,
-      "under_cap": 3,
-      "file": "tui/country/duitsland_under_700.json"
-    },
-    "Egypte": {
-      "cap": 800,
-      "total": 15,
-      "under_cap": 3,
-      "file": "tui/country/egypte_under_800.json"
-    },
-    "Zweden": {
-      "cap": 700,
-      "total": 30,
-      "under_cap": 1,
-      "file": "tui/country/zweden_under_700.json"
-    },
-    "Cyprus": {
-      "cap": 700,
-      "total": 3,
-      "under_cap": 1,
-      "file": "tui/country/cyprus_under_700.json"
     },
     "Hongarije": {
       "cap": 700,
-      "total": 2,
-      "under_cap": 2,
+      "total": 14,
+      "under_cap": 12,
       "file": "tui/country/hongarije_under_700.json"
+    },
+    "Polen": {
+      "cap": 700,
+      "total": 11,
+      "under_cap": 11,
+      "file": "tui/country/polen_under_700.json"
+    },
+    "Denemarken": {
+      "cap": 700,
+      "total": 15,
+      "under_cap": 10,
+      "file": "tui/country/denemarken_under_700.json"
+    },
+    "Duitsland": {
+      "cap": 700,
+      "total": 20,
+      "under_cap": 17,
+      "file": "tui/country/duitsland_under_700.json"
+    },
+    "Kroatië": {
+      "cap": 700,
+      "total": 6,
+      "under_cap": 2,
+      "file": "tui/country/kroati_under_700.json"
+    },
+    "Noorwegen": {
+      "cap": 700,
+      "total": 14,
+      "under_cap": 7,
+      "file": "tui/country/noorwegen_under_700.json"
+    },
+    "Turkije": {
+      "cap": 700,
+      "total": 31,
+      "under_cap": 18,
+      "file": "tui/country/turkije_under_700.json"
+    },
+    "IJsland": {
+      "cap": 700,
+      "total": 10,
+      "under_cap": 2,
+      "file": "tui/country/ijsland_under_700.json"
+    },
+    "Malta": {
+      "cap": 700,
+      "total": 25,
+      "under_cap": 4,
+      "file": "tui/country/malta_under_700.json"
+    },
+    "Egypte": {
+      "cap": 800,
+      "total": 108,
+      "under_cap": 33,
+      "file": "tui/country/egypte_under_800.json"
+    },
+    "Slovenië": {
+      "cap": 700,
+      "total": 13,
+      "under_cap": 4,
+      "file": "tui/country/sloveni_under_700.json"
+    },
+    "Albanië": {
+      "cap": 700,
+      "total": 14,
+      "under_cap": 3,
+      "file": "tui/country/albani_under_700.json"
+    },
+    "Cyprus": {
+      "cap": 700,
+      "total": 27,
+      "under_cap": 4,
+      "file": "tui/country/cyprus_under_700.json"
     },
     "Ierland": {
       "cap": 700,
-      "total": 3,
+      "total": 5,
       "under_cap": 1,
       "file": "tui/country/ierland_under_700.json"
     },
+    "Kaapverdië": {
+      "cap": 700,
+      "total": 19,
+      "under_cap": 2,
+      "file": "tui/country/kaapverdi_under_700.json"
+    },
+    "Zweden": {
+      "cap": 700,
+      "total": 13,
+      "under_cap": 1,
+      "file": "tui/country/zweden_under_700.json"
+    },
+    "Bulgarije": {
+      "cap": 700,
+      "total": 13,
+      "under_cap": 1,
+      "file": "tui/country/bulgarije_under_700.json"
+    },
+    "Montenegro": {
+      "cap": 700,
+      "total": 5,
+      "under_cap": 2,
+      "file": "tui/country/montenegro_under_700.json"
+    },
     "Tunesië": {
       "cap": 700,
-      "total": 26,
-      "under_cap": 3,
+      "total": 8,
+      "under_cap": 2,
       "file": "tui/country/tunesi_under_700.json"
     },
     "Verenigde Staten": {
       "cap": 700,
-      "total": 105,
+      "total": 67,
       "under_cap": 0,
       "file": "tui/country/verenigde_staten_under_700.json"
     },
-    "Finland": {
-      "cap": 700,
-      "total": 5,
-      "under_cap": 0,
-      "file": "tui/country/finland_under_700.json"
-    },
-    "Bulgarije": {
-      "cap": 700,
-      "total": 3,
-      "under_cap": 0,
-      "file": "tui/country/bulgarije_under_700.json"
-    },
     "Canada": {
       "cap": 700,
-      "total": 3,
+      "total": 13,
       "under_cap": 0,
       "file": "tui/country/canada_under_700.json"
     },
-    "Mexico": {
-      "cap": 700,
-      "total": 5,
-      "under_cap": 0,
-      "file": "tui/country/mexico_under_700.json"
-    },
-    "Thailand": {
-      "cap": 700,
-      "total": 57,
-      "under_cap": 0,
-      "file": "tui/country/thailand_under_700.json"
-    },
-    "Gambia": {
-      "cap": 700,
-      "total": 3,
-      "under_cap": 0,
-      "file": "tui/country/gambia_under_700.json"
-    },
-    "Tanzania": {
-      "cap": 700,
-      "total": 30,
-      "under_cap": 0,
-      "file": "tui/country/tanzania_under_700.json"
-    },
-    "Kaapverdië": {
-      "cap": 700,
-      "total": 2,
-      "under_cap": 0,
-      "file": "tui/country/kaapverdi_under_700.json"
-    },
-    "Montenegro": {
-      "cap": 700,
-      "total": 1,
-      "under_cap": 0,
-      "file": "tui/country/montenegro_under_700.json"
-    },
     "Curacao": {
       "cap": 700,
-      "total": 3,
+      "total": 18,
       "under_cap": 0,
       "file": "tui/country/curacao_under_700.json"
     },
-    "Dominicaanse Republiek": {
+    "Gambia": {
       "cap": 700,
-      "total": 5,
+      "total": 10,
       "under_cap": 0,
-      "file": "tui/country/dominicaanse_republiek_under_700.json"
+      "file": "tui/country/gambia_under_700.json"
+    },
+    "Thailand": {
+      "cap": 700,
+      "total": 20,
+      "under_cap": 0,
+      "file": "tui/country/thailand_under_700.json"
     },
     "Kenia": {
       "cap": 700,
-      "total": 1,
+      "total": 12,
       "under_cap": 0,
       "file": "tui/country/kenia_under_700.json"
     },
-    "Verenigde Arabische Emiraten": {
-      "cap": 700,
-      "total": 30,
-      "under_cap": 0,
-      "file": "tui/country/verenigde_arabische_emiraten_under_700.json"
-    },
     "Indonesië": {
       "cap": 700,
-      "total": 4,
+      "total": 34,
       "under_cap": 0,
       "file": "tui/country/indonesi_under_700.json"
     },
-    "Roemenië": {
+    "Tanzania": {
       "cap": 700,
       "total": 2,
       "under_cap": 0,
-      "file": "tui/country/roemeni_under_700.json"
+      "file": "tui/country/tanzania_under_700.json"
     },
-    "Sri Lanka": {
+    "Aruba": {
+      "cap": 700,
+      "total": 19,
+      "under_cap": 0,
+      "file": "tui/country/aruba_under_700.json"
+    },
+    "Finland": {
+      "cap": 700,
+      "total": 30,
+      "under_cap": 0,
+      "file": "tui/country/finland_under_700.json"
+    },
+    "Bonaire": {
+      "cap": 700,
+      "total": 1,
+      "under_cap": 0,
+      "file": "tui/country/bonaire_under_700.json"
+    },
+    "Dominicaanse Republiek": {
+      "cap": 700,
+      "total": 27,
+      "under_cap": 0,
+      "file": "tui/country/dominicaanse_republiek_under_700.json"
+    },
+    "Mexico": {
+      "cap": 700,
+      "total": 26,
+      "under_cap": 0,
+      "file": "tui/country/mexico_under_700.json"
+    },
+    "Jamaica": {
+      "cap": 700,
+      "total": 12,
+      "under_cap": 0,
+      "file": "tui/country/jamaica_under_700.json"
+    },
+    "Verenigde Arabische Emiraten": {
       "cap": 700,
       "total": 3,
       "under_cap": 0,
+      "file": "tui/country/verenigde_arabische_emiraten_under_700.json"
+    },
+    "Gibraltar": {
+      "cap": 700,
+      "total": 3,
+      "under_cap": 0,
+      "file": "tui/country/gibraltar_under_700.json"
+    },
+    "Sri Lanka": {
+      "cap": 700,
+      "total": 2,
+      "under_cap": 0,
       "file": "tui/country/sri_lanka_under_700.json"
+    },
+    "Mauritius": {
+      "cap": 700,
+      "total": 17,
+      "under_cap": 0,
+      "file": "tui/country/mauritius_under_700.json"
     },
     "Senegal": {
       "cap": 700,
@@ -262,65 +298,113 @@
       "under_cap": 0,
       "file": "tui/country/senegal_under_700.json"
     },
+    "Malediven": {
+      "cap": 700,
+      "total": 18,
+      "under_cap": 0,
+      "file": "tui/country/malediven_under_700.json"
+    },
+    "India": {
+      "cap": 700,
+      "total": 2,
+      "under_cap": 0,
+      "file": "tui/country/india_under_700.json"
+    },
+    "Estland": {
+      "cap": 700,
+      "total": 1,
+      "under_cap": 0,
+      "file": "tui/country/estland_under_700.json"
+    },
     "Seychellen": {
       "cap": 700,
-      "total": 19,
+      "total": 9,
       "under_cap": 0,
       "file": "tui/country/seychellen_under_700.json"
     },
     "St Maarten": {
       "cap": 700,
-      "total": 8,
+      "total": 6,
       "under_cap": 0,
       "file": "tui/country/st_maarten_under_700.json"
     },
-    "Mauritius": {
+    "Jordanië": {
       "cap": 700,
-      "total": 3,
+      "total": 1,
       "under_cap": 0,
-      "file": "tui/country/mauritius_under_700.json"
+      "file": "tui/country/jordani_under_700.json"
     },
-    "Jamaica": {
+    "Cambodja": {
       "cap": 700,
       "total": 2,
       "under_cap": 0,
-      "file": "tui/country/jamaica_under_700.json"
+      "file": "tui/country/cambodja_under_700.json"
+    },
+    "Barbados": {
+      "cap": 700,
+      "total": 2,
+      "under_cap": 0,
+      "file": "tui/country/barbados_under_700.json"
+    },
+    "Bosnië Herzegovina": {
+      "cap": 700,
+      "total": 2,
+      "under_cap": 0,
+      "file": "tui/country/bosni_herzegovina_under_700.json"
+    },
+    "Maleisië": {
+      "cap": 700,
+      "total": 2,
+      "under_cap": 0,
+      "file": "tui/country/maleisi_under_700.json"
+    },
+    "Antigua en Barbuda": {
+      "cap": 700,
+      "total": 1,
+      "under_cap": 0,
+      "file": "tui/country/antigua_en_barbuda_under_700.json"
+    },
+    "Bahamas": {
+      "cap": 700,
+      "total": 3,
+      "under_cap": 0,
+      "file": "tui/country/bahamas_under_700.json"
+    },
+    "Costa Rica": {
+      "cap": 700,
+      "total": 6,
+      "under_cap": 0,
+      "file": "tui/country/costa_rica_under_700.json"
     },
     "Oman": {
       "cap": 700,
-      "total": 3,
+      "total": 1,
       "under_cap": 0,
       "file": "tui/country/oman_under_700.json"
     },
-    "Vietnam": {
+    "China": {
       "cap": 700,
-      "total": 3,
+      "total": 4,
       "under_cap": 0,
-      "file": "tui/country/vietnam_under_700.json"
+      "file": "tui/country/china_under_700.json"
     },
-    "Oezbekistan": {
+    "Colombia": {
       "cap": 700,
       "total": 1,
       "under_cap": 0,
-      "file": "tui/country/oezbekistan_under_700.json"
+      "file": "tui/country/colombia_under_700.json"
     },
-    "Suriname": {
-      "cap": 700,
-      "total": 7,
-      "under_cap": 0,
-      "file": "tui/country/suriname_under_700.json"
-    },
-    "Panama": {
+    "Bermuda": {
       "cap": 700,
       "total": 1,
       "under_cap": 0,
-      "file": "tui/country/panama_under_700.json"
+      "file": "tui/country/bermuda_under_700.json"
     },
-    "Swaziland": {
+    "Amerikaanse Maagdeneilanden": {
       "cap": 700,
-      "total": 5,
+      "total": 2,
       "under_cap": 0,
-      "file": "tui/country/swaziland_under_700.json"
+      "file": "tui/country/amerikaanse_maagdeneilanden_under_700.json"
     },
     "Zuid Afrika": {
       "cap": 700,
@@ -328,29 +412,47 @@
       "under_cap": 0,
       "file": "tui/country/zuid_afrika_under_700.json"
     },
-    "Peru": {
+    "Ecuador": {
       "cap": 700,
       "total": 2,
       "under_cap": 0,
-      "file": "tui/country/peru_under_700.json"
+      "file": "tui/country/ecuador_under_700.json"
     },
     "Brazilië": {
       "cap": 700,
-      "total": 1,
+      "total": 2,
       "under_cap": 0,
       "file": "tui/country/brazili_under_700.json"
     },
-    "Zuid Korea": {
+    "Peru": {
       "cap": 700,
       "total": 1,
       "under_cap": 0,
-      "file": "tui/country/zuid_korea_under_700.json"
+      "file": "tui/country/peru_under_700.json"
     },
-    "Costa Rica": {
+    "Japan": {
+      "cap": 700,
+      "total": 3,
+      "under_cap": 0,
+      "file": "tui/country/japan_under_700.json"
+    },
+    "Argentinië": {
       "cap": 700,
       "total": 1,
       "under_cap": 0,
-      "file": "tui/country/costa_rica_under_700.json"
+      "file": "tui/country/argentini_under_700.json"
+    },
+    "Bolivia": {
+      "cap": 700,
+      "total": 1,
+      "under_cap": 0,
+      "file": "tui/country/bolivia_under_700.json"
+    },
+    "Botswana": {
+      "cap": 700,
+      "total": 1,
+      "under_cap": 0,
+      "file": "tui/country/botswana_under_700.json"
     }
   },
   "files": {
